@@ -1,1 +1,1 @@
-python c:/kimikit/bin/shakemouse.py
+python %HOME%/kimikit/bin/shakemouse.py

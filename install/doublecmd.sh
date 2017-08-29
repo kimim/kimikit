@@ -14,3 +14,5 @@ cp ../doublecmd/doublecmd.xml doublecmd/
 rm -rf ../doublecmd
 
 cp -r doublecmd ../
+
+chmod +x ../doublecmd/doublecmd.exe
