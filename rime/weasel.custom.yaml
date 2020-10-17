@@ -1,0 +1,25 @@
+customization:
+  distribution_code_name: Weasel
+  distribution_version: 0.14.3
+  generator: "Weasel::UIStyleSettings"
+  modified_time: "Fri Oct 16 20:19:01 2020"
+  rime_version: 1.5.3
+patch:
+  "style/color_scheme": dark_temple
+# "style/color_scheme": google
+  "style/display_tray_icon": true
+  "style/horizontal": true
+  "style/inline_preedit": false
+  "switches/@0/reset": 1
+  style/horizontal: true        # 候選橫排
+  app_options:                  # 程序名字全用小寫字母
+    cmd.exe:
+      ascii_mode: true
+    emacs.exe:
+      ascii_mode: true
+    emacs-w32.exe:
+      ascii_mode: true
+    run.exe:
+      ascii_mode: true
+    mintty.exe:
+      ascii_mode: true
