@@ -14,7 +14,8 @@ patch:
     half_shape:
       __include: punctuation:/half_shape
       '/' : '/'
-      '\': ['、', '\', '＼', ／, '÷']
+      '\': '、'
+      '`': ['、', '\', '＼', ／, '÷']
       '~' : '~'
       '*' : '*'                           # reserved for org-mode heading
       '#' : ['#', ＊, ·, ・, ×, ※, ❂ ]  # help * to load some symbols
