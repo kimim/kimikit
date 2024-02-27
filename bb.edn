@@ -1,0 +1,6 @@
+{:paths ["."]
+ :tasks
+ {:requires ([clojure.java.shell :refer [sh]])
+  plantuml (sh "curl" "--silent"
+            "-o" "plantuml/plantuml.jar"
+            "https://github.com/plantuml/plantuml/releases/download/snapshot/plantuml-SNAPSHOT.jar")}}
