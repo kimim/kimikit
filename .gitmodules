@@ -1,0 +1,9 @@
+[submodule "autohotkey/kimim-emacs-everywhere"]
+	path = autohotkey/kimim-emacs-everywhere
+	url = git@github.com:kimim/kimim-emacs-everywhere.git
+[submodule "rime"]
+	path = rime
+	url = git@github.com:iDvel/rime-ice.git
+[submodule "texlive/local/beamertheme-hippo"]
+	path = texlive/local/beamertheme-hippo
+	url = git@github.com:kimim/beamertheme-hippo.git
