@@ -1,0 +1,81 @@
+export LANG=en_US.UTF-8
+export LC_ALL=en_US.UTF-8
+export LC_CTYPE=en_US.UTF-8
+export LC_NUMERIC=en_US.UTF-8
+# export JAVA_TOOL_OPTIONS="-Djava.io.tmpdir=$USERPROFILE\\home\\temp"
+# export JAVA_TOOL_OPTIONS="-Duser.language=en            \
+#        -Dhttp.proxyHost=127.0.0.1 -Dhttp.proxyPort=1080 \
+#        -Dhttps.proxyHost=127.0.0.1 -Dhttps.proxyPort=1080"
+
+# java option openjdk
+# freeplane requires jdk 15
+# export JAVA_HOME=`cygpath -w /kimikit/java/jdk-17.0.8+7`
+# export PATH=$PATH:/kimikit/java/jdk-17.0.8+7/bin
+export JAVA_HOME=`cygpath -w /kimikit/jdk`
+export PATH=$PATH:/kimikit/jdk/bin
+
+# java option graalvm jdk and js
+# export JAVA_HOME=`cygpath -w /kimikit/java/graalvm-ce-java11-22.1.0`
+# export PATH=$PATH:/kimikit/java/graalvm-ce-java11-22.1.0/bin/
+# export PATH=$PATH:/kimikit/java/graalvm-ce-java11-22.1.0/languages/js/bin/
+
+export PATH=$PATH:/kimikit/gradle/bin/
+export PATH=$PATH:/kimikit/apache-maven/bin/
+export PATH=$PATH:/kimikit/apache-ant/bin
+
+# RUST
+export PATH=`cygpath -u $USERPROFILE`/.cargo/bin:$PATH
+
+# R
+export PATH=/kimikit/R/bin:$PATH
+
+export PATH=$PATH:/kimikit/x86_64/bin
+export PATH=$PATH:/kimikit/i686/bin
+export PATH=$PATH:/kimikit/bin
+export PATH=$PATH:/kimikit/drawio
+export PATH=$PATH:/kimikit/babashka
+export PATH=$PATH:/kimikit/firefox
+export PATH=$PATH:/kimikit/lilypond/bin
+export PATH=$PATH:/kimikit/emacs/bin
+
+# NodeJS
+# export PATH=/kimikit/node:$PATH
+
+# latex option: miktex
+# export PATH=$PATH:/CTEX/MiKTeX/miktex/bin
+# latex option: texlive
+
+# export PATH=$PATH:$(cygpath $(go env GOPATH))/bin
+
+export PATH=/ucrt64/bin:$PATH
+export PATH=/kimikit/texlive/2023/bin/windows:$PATH
+
+# powershell.exe is needed for cider-jack-in, DO NOT REMOVE
+export PATH=$PATH:/c/Windows/system32/WindowsPowerShell/v1.0
+
+# add system32 to let texlive find cmd.exe, then pygmentize can work
+# see https://tex.stackexchange.com/questions/347833/tex-live-on-windows-2016-cannot-find-pygmentize
+export PATH=$PATH:/c/Windows/system32
+
+export INFOPATH=$INFOPATH:/ucrt64/share/info:/kimikit/emacs/share/info
+
+alias syu="pacman -Syu"
+# export https_proxy=127.0.0.1:1080
+# export http_proxy=127.0.0.1:1080
+
+proxy_kimim()
+{
+    export https_proxy=127.0.0.1:1080
+    export http_proxy=127.0.0.1:1080
+    export JAVA_TOOL_OPTIONS="-Dhttp.proxyHost=127.0.0.1 -Dhttp.proxyPort=1080 -Dhttps.proxyHost=127.0.0.1 -Dhttps.proxyPort=1080"
+}
+
+proxy_off()
+{
+    export https_proxy=""
+    export http_proxy=""
+    export JAVA_TOOL_OPTIONS=""
+}
+
+# alias pdf2svg="pdftocairo.exe -svg"
+# alias pdf2svg="inkscape -o"
