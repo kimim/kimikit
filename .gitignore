@@ -1,3 +1,16 @@
 *.exe
 *.dll
 *.xml.bkp
+/R
+/autohotkey
+/babashka
+/clojure
+/drawio
+/firefox
+/freeplane
+/jdk
+/lilypond
+/plantuml
+/sharex
+/sumatrapdf
+/texlive
