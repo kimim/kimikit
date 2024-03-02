@@ -1,6 +1,11 @@
 {:paths ["."]
  :tasks
- {:requires ([clojure.java.shell :refer [sh]])
+ {:requires ([clojure.java.shell :refer [sh]]
+             [babashka.fs :as fs]
+             [clojure.string :as str])
+  :init (do (defn print-args []
+                (prn (:name (current-task))
+                     *command-line-args*)))
   plantuml (sh "curl" "--silent"
             "-o" "plantuml/plantuml.jar"
             "https://github.com/plantuml/plantuml/releases/download/snapshot/plantuml-SNAPSHOT.jar")
@@ -14,4 +19,15 @@
   drawio (do
            ;; pacman -S ucrt64/mingw-w64-ucrt-x86_64-yarn
            (sh "yarn" "install")
-           (sh "yarn" "run" "release-win"))}}
+           (sh "yarn" "run" "release-win"))
+
+  backup:terminal (let [conf-dir (first
+                                  (filter (fn [dir] (str/includes? dir "WindowsTerminal"))
+                                      (map str (fs/list-dir (str (System/getenv "USERPROFILE") "\\AppData\\Local\\Packages")))))]
+                    (try (fs/copy (str conf-dir "\\LocalState\\settings.json")
+                                  "windows-terminal"
+                                  {:replace-existing true})
+                         (print "Succeed to copy Windows Terminal settings.json.")
+                         (catch Exception e
+                           (print
+                            (str "Failed to copy Windows Terminal settings: " (.getMessage e))))))}}

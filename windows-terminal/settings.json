@@ -62,18 +62,20 @@
                 "source": "Windows.Terminal.Azure"
             },
             {
-                "colorScheme": "Campbell",
-                "commandline": "%USERPROFILE%/msys64/kshell.cmd -defterm -here -no-start -ucrt64",
+                "colorScheme": "One Half Dark",
+                "commandline": "%USERPROFILE%/msys64/kimikit/bin/kshell.cmd -here",
                 "guid": "{17da3cac-b318-431e-8a3e-7fcdefe6d114}",
                 "icon": "%USERPROFILE%/msys64/ucrt64.ico",
                 "name": "UCRT64 / UNIX",
+                "startingDirectory": null
             },
             {
                 "colorScheme": "Campbell",
-                "commandline": "%USERPROFILE%/msys64/msys2_shell.cmd -defterm -here -no-start -ucrt64",
+                "commandline": "%USERPROFILE%/msys64/kimikit/bin/wshell.cmd -here",
                 "guid": "{17da3cac-b318-431e-8a3e-7fcdefe6d119}",
                 "icon": "%USERPROFILE%/msys64/ucrt64.ico",
                 "name": "UCRT64 / WINDOWS",
+                "startingDirectory": null
             }
         ]
     },
