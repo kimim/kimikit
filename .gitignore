@@ -14,3 +14,9 @@
 /sharex
 /sumatrapdf
 /texlive
+/weasel
+/etc/ShareX/Backup
+/etc/ShareX/Logs
+/etc/ShareX/Screenshots
+/etc/ShareX/History.json
+/etc/ShareX/UploadersConfig.json

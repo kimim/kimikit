@@ -872,7 +872,7 @@
   "AutoCaptureRepeatTime": 60.0,
   "AutoCaptureMinimizeToTray": true,
   "AutoCaptureWaitUpload": true,
-  "ScreenRecordRegion": "1161, 74, 1628, 1034",
+  "ScreenRecordRegion": "1056, 323, 2052, 1544",
   "ActionsToolbarList": [
     "RectangleRegion",
     "PrintScreen",

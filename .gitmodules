@@ -1,8 +1,8 @@
-[submodule "autohotkey/kimim-emacs-everywhere"]
-	path = autohotkey/kimim-emacs-everywhere
+[submodule "etc/kimim-emacs-everywhere"]
+	path = etc/kimim-emacs-everywhere
 	url = git@github.com:kimim/kimim-emacs-everywhere.git
-[submodule "rime"]
-	path = rime
+[submodule "etc/rime-ice"]
+	path = etc/rime-ice
 	url = git@github.com:iDvel/rime-ice.git
 [submodule "src/autohotkey"]
 	path = src/autohotkey
