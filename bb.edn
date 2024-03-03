@@ -29,7 +29,7 @@
                                   (filter (fn [dir] (str/includes? dir "WindowsTerminal"))
                                       (map str (fs/list-dir (str (env "USERPROFILE") "\\AppData\\Local\\Packages")))))]
                     (try (fs/copy (str conf-dir "\\LocalState\\settings.json")
-                                  "windows-terminal"
+                                  "etc/windows-terminal/"
                                   {:replace-existing true})
                          (print "Succeed to copy Windows Terminal settings.json.")
                          (catch Exception e
