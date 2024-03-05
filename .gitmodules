@@ -13,3 +13,6 @@
 [submodule "texlive/texmf-local/tex/latex/local/beamertheme-hippo"]
 	path = texlive/texmf-local/tex/latex/local/beamertheme-hippo
 	url = git@github.com:kimim/beamertheme-hippo.git
+[submodule "etc/kimim-emacs"]
+	path = etc/kimim-emacs
+	url = git@github.com:kimim/kimim-emacs.git
