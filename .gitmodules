@@ -7,18 +7,9 @@
 [submodule "src/autohotkey"]
 	path = src/autohotkey
 	url = git@github.com:AutoHotkey/AutoHotkey.git
-[submodule "src/drawio-desktop"]
-	path = src/drawio-desktop
-	url = git@github.com:kimim/drawio-desktop.git
-[submodule "src/sumatrapdf"]
-	path = src/sumatrapdf
-	url = git@github.com:kimim/sumatrapdf.git
 [submodule "src/freeplane"]
 	path = src/freeplane
 	url = git@github.com:kimim/freeplane.git
 [submodule "texlive/texmf-local/tex/latex/local/beamertheme-hippo"]
 	path = texlive/texmf-local/tex/latex/local/beamertheme-hippo
 	url = git@github.com:kimim/beamertheme-hippo.git
-[submodule "etc/kimim-emacs"]
-	path = etc/kimim-emacs
-	url = git@github.com:kimim/kimim-emacs.git
