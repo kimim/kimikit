@@ -10,44 +10,44 @@ export LC_NUMERIC=en_US.UTF-8
 
 # java option openjdk
 # freeplane requires jdk 15
-export JAVA_HOME=`cygpath -w /kimikit/jdk`
+export JAVA_HOME=`cygpath -w $KIMIKIT/jdk`
 # java option graalvm jdk and js
-# export JAVA_HOME=`cygpath -w /kimikit/java/graalvm-ce-java11-22.1.0`
+# export JAVA_HOME=`cygpath -w $KIMIKIT/java/graalvm-ce-java11-22.1.0`
 
 # PATH
 export PATH=/ucrt64/bin:$PATH
 export PATH=$PATH:/ucrt64/lib/node_modules/typescript/bin/:/ucrt64/lib
-# export PATH=$PATH:/kimikit/java/graalvm-ce-java11-22.1.0/bin/
-# export PATH=$PATH:/kimikit/java/graalvm-ce-java11-22.1.0/languages/js/bin/
-export PATH=$PATH:/kimikit/jdk/bin
+# export PATH=$PATH:$KIMIKIT/java/graalvm-ce-java11-22.1.0/bin/
+# export PATH=$PATH:$KIMIKIT/java/graalvm-ce-java11-22.1.0/languages/js/bin/
+export PATH=$PATH:$KIMIKIT/jdk/bin
 
-export PATH=$PATH:/kimikit/gradle/bin/
-export PATH=$PATH:/kimikit/apache-maven/bin/
-export PATH=$PATH:/kimikit/apache-ant/bin
+export PATH=$PATH:$KIMIKIT/gradle/bin/
+export PATH=$PATH:$KIMIKIT/apache-maven/bin/
+export PATH=$PATH:$KIMIKIT/apache-ant/bin
 
 # RUST
 export PATH=`cygpath -u $USERPROFILE`/.cargo/bin:$PATH
 
 # R
-export PATH=$PATH:/kimikit/R/bin
-export PATH=$PATH:/kimikit/clojure/bin/
+export PATH=$PATH:$KIMIKIT/R/bin
+export PATH=$PATH:$KIMIKIT/clojure/bin/
 
-export PATH=$PATH:/kimikit/drawio
-export PATH=$PATH:/kimikit/babashka
-export PATH=$PATH:/kimikit/firefox
-export PATH=$PATH:/kimikit/emacs/bin
-export PATH=$PATH:/kimikit/texlive/2023/bin/windows
+export PATH=$PATH:$KIMIKIT/drawio
+export PATH=$PATH:$KIMIKIT/babashka
+export PATH=$PATH:$KIMIKIT/firefox
+export PATH=$PATH:$KIMIKIT/emacs/bin
+export PATH=$KIMIKIT/texlive/2023/bin/windows:$PATH
 
 # cross compilers
 export PATH=$PATH:/ucrt64/x86_64-elf/bin:/ucrt64/i686-elf/bin
-export PATH=$PATH:/kimikit/x86_64/bin
-export PATH=$PATH:/kimikit/i686/bin
+export PATH=$PATH:$KIMIKIT/x86_64/bin
+export PATH=$PATH:$KIMIKIT/i686/bin
 # WARNING!! it is dangerous to move lilypond path to beginning of
 # PATH, otherwise, emacs image-mode for svg, and fanyi.el will not
 # work.
-export PATH=$PATH:/kimikit/lilypond/bin
+export PATH=$PATH:$KIMIKIT/lilypond/bin
 
-export PATH=$PATH:/kimikit/bin
+export PATH=$PATH:$KIMIKIT/bin
 
 # GO
 # export PATH=$PATH:$(cygpath $(go env GOPATH))/bin
@@ -59,7 +59,7 @@ export PATH=$PATH:/c/Windows/system32/WindowsPowerShell/v1.0
 # see https://tex.stackexchange.com/questions/347833/tex-live-on-windows-2016-cannot-find-pygmentize
 export PATH=$PATH:/c/Windows/system32
 
-export INFOPATH=$INFOPATH:/ucrt64/share/info:/kimikit/emacs/share/info
+export INFOPATH=$INFOPATH:/ucrt64/share/info:$KIMIKIT/emacs/share/info
 
 
 # shell functions

@@ -34,4 +34,6 @@
                          (print "Succeed to copy Windows Terminal settings.json.")
                          (catch Exception e
                            (print
-                            (str "Failed to copy Windows Terminal settings: " (.getMessage e))))))}}
+                            (str "Failed to copy Windows Terminal settings: " (.getMessage e))))))
+
+  backup (do (run "backup:terminal"))}}
