@@ -80,3 +80,6 @@ proxy_off()
 # ALIAS
 alias rgapdf="rga -g '*.pdf' -g '*.epub'"
 alias syu="pacman -Syu"
+
+# export PS1="\[\e]0;\w\a\]\n\[\e[32m\]\u@\h \[\e[35m\]$MSYSTEM\[\e[0m\] \[\e[33m\]\w\[\e[0m\]\n\[\e[1m\]#\[\e[0m\] "
+export PS1="\[\e]0;\w\a\]\n\[\e[32m\]\u@\h \[\e[33m\]\w\[\e[0m\]\n\[\e[1m\]$\[\e[0m\] "
