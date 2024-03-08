@@ -6,6 +6,7 @@ customization:
   rime_version: 1.5.3
 patch:
   app_options:
+    applicationframehost.exe: {ascii_mode: true}
     windowsterminal.exe: {ascii_mode: true}
     searchapp.exe: {ascii_mode: true}
     searchui.exe: {ascii_mode: true}
