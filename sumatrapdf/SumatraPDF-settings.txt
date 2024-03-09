@@ -50,7 +50,7 @@ Annotations [
 	DefaultAuthor = 
 ]
 
-RememberOpenedFiles = false
+RememberOpenedFiles = true
 RememberStatePerDocument = true
 RestoreSession = true
 LazyLoading = true
@@ -61,7 +61,7 @@ DefaultZoom = fit page
 Shortcuts [
 ]
 EscToExit = false
-ReuseInstance = false
+ReuseInstance = true
 ReloadModifiedDocuments = true
 
 MainWindowBackground = #dcdcdc
@@ -82,18 +82,129 @@ TreeFontName = automatic
 SmoothScroll = false
 ShowStartPage = true
 CheckForUpdates = false
-WindowState = 2
+WindowState = 1
 WindowPos = -9 0 1938 2097
 UseTabs = false
 UseSysColors = false
 CustomScreenDPI = 0
 
 FileStates [
+	[
+		FilePath = C:\Users\CNJIMA5\home\notes\orgmode-examples\README.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 75
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = -9 0 1938 2097
+		ShowToc = false
+		SidebarDx = 397
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\CNJIMA5\home\notes\studies\programming\cpp\cpp-oop.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 98
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = -9 0 1938 2097
+		ShowToc = false
+		SidebarDx = 397
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\CNJIMA5\home\OneDrive - ABB\Tilde\docs\Hardware\Assembly\RISCV\riscv_book.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 3
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 4
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 81 0 1938 2088
+		ShowToc = false
+		SidebarDx = 397
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
 ]
 SessionData [
+	[
+		TabStates [
+			[
+				FilePath = C:\Users\CNJIMA5\home\OneDrive - ABB\Tilde\docs\Hardware\ComputerArchitecture\Computer_Organization_and_Design_3Rd.pdf
+				DisplayMode = continuous
+				PageNo = 99
+				Zoom = 200
+				Rotation = 0
+				ScrollPos = 88.3753 32.8753
+				ShowToc = false
+			]
+		]
+		TabIndex = 1
+		WindowState = 1
+		WindowPos = -9 0 1938 2097
+		SidebarDx = 397
+	]
+	[
+		TabStates [
+			[
+				FilePath = C:\Users\CNJIMA5\home\notes\studies\computer\computer-organization.pdf
+				DisplayMode = continuous
+				PageNo = 51
+				Zoom = fit page
+				Rotation = 0
+				ScrollPos = -1 -1
+				ShowToc = false
+			]
+		]
+		TabIndex = 1
+		WindowState = 1
+		WindowPos = -9 0 1938 2097
+		SidebarDx = 397
+	]
+	[
+		TabStates [
+			[
+				FilePath = C:\Users\CNJIMA5\home\notes\orgmode-examples\README.pdf
+				DisplayMode = continuous
+				PageNo = 75
+				Zoom = fit page
+				Rotation = 0
+				ScrollPos = -1 -1
+				ShowToc = false
+			]
+		]
+		TabIndex = 1
+		WindowState = 1
+		WindowPos = -9 0 1938 2097
+		SidebarDx = 397
+	]
 ]
 TimeOfLastUpdateCheck = 0 0
-OpenCountWeek = 687
+OpenCountWeek = 688
 
 # Settings below are not recognized by the current version
 AssociateSilently = false
