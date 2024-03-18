@@ -52,7 +52,7 @@ Annotations [
 
 RememberOpenedFiles = true
 RememberStatePerDocument = true
-RestoreSession = true
+RestoreSession = false
 LazyLoading = true
 UiLanguage = en
 EnableTeXEnhancements = false
@@ -60,7 +60,7 @@ DefaultDisplayMode = automatic
 DefaultZoom = fit page
 Shortcuts [
 ]
-EscToExit = false
+EscToExit = true
 ReuseInstance = true
 ReloadModifiedDocuments = true
 
