@@ -19,6 +19,3 @@
 [submodule "src/sumatrapdf"]
 	path = src/sumatrapdf
 	url = git@github.com:kimim/sumatrapdf.git
-[submodule "src/drawio-desktop"]
-	path = src/drawio-desktop
-	url = git@github.com:jgraph/drawio-desktop.git
