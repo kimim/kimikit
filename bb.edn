@@ -10,8 +10,8 @@
                   *command-line-args*))
 
             (defn create-dir-if-not-exist [dir]
-              (if (not (fs/exists? "clojure"))
-                  (fs/create-dir "clojure"))))
+              (if (not (fs/exists? dir))
+                  (fs/create-dir dir))))
 
 
   install:nuget (shell "curl -L -o bin  https://dist.nuget.org/win-x86-commandline/latest/nuget.exe")
