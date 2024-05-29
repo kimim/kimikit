@@ -36,7 +36,7 @@ export PATH=$PATH:$KIMIKIT/drawio
 export PATH=$PATH:$KIMIKIT/babashka
 export PATH=$PATH:$KIMIKIT/firefox
 export PATH=$PATH:$KIMIKIT/emacs/bin
-export PATH=$KIMIKIT/texlive/2023/bin/windows:$PATH
+export PATH=$KIMIKIT/texlive/2024/bin/windows:$PATH
 
 # cross compilers
 export PATH=$PATH:/ucrt64/x86_64-elf/bin:/ucrt64/i686-elf/bin
