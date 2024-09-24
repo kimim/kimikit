@@ -28,3 +28,6 @@
 /app/
 /.DS_Store
 .DS_Store
+/gradle-8.8/
+/launch4j/
+/weasel-0.15.0/
